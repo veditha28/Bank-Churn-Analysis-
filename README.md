@@ -35,3 +35,20 @@ This project is a comprehensive end-to-end implementation of a **customer churn 
 
 ## 📁 Project Structure
 
+bank-churn-prediction/
+│
+├── BANK CHURN ANALYSIS.ipynb        # Jupyter notebook with all code and analysis
+├── Bank Customer Churn Prediction.csv  # Dataset used for training and evaluation
+├── Churn_Report.pdf                 # Final technical report (IEEE format)
+├── PowerBI_Visuals.pbix             # Power BI dashboard file (optional)
+├── README.md                        # Project overview and instructions
+├── requirements.txt                 # Python dependencies (optional)
+├── images/                          # Folder for heatmaps and charts used in the report
+│   ├── correlation_heatmap.png
+│   ├── confusion_matrix_rf.png
+│   └── churn_visual_bars.png
+└── output/
+    ├── model_metrics.txt            # Evaluation scores from trained models
+    └── feature_importance.csv       # Ranked features from Random Forest
+
+
